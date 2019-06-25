@@ -1,0 +1,129 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Candara;
+
+}
+
+.container {
+    display: grid;
+}
+
+.container .main {
+    text-align: center;
+}
+
+.container .head {
+    background-image: url('https://computersciencems.com/wp-content/uploads/2018/06/can-you-get-a-masters-degree-without-a-cs-background-800x533.jpg');
+    text-align: center;
+}
+
+
+
+.container .head h1 a:hover{
+    background-image: linear-gradient(black,white);
+}
+.container .head h2 {
+    background-color: aqua;
+    border-radius: dashed 10px red;
+}
+
+.container .head a {
+    text-decoration: none;
+}
+
+.container .main .img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+ 
+}
+
+.container .main .img img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.container>.head>h1 {
+    position: relative;
+    top: -10px;
+    color: black;
+    border-radius: 15px 50px 30px 5px;
+    background-image: linear-gradient(-90deg, black, white);
+    padding: 20px;
+    /* width: 200px;
+    height: 150px; */
+    align-content: center;
+}
+
+.main>.img>img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+/* grid */
+
+.main>.deskripsi {
+    background: white;
+    color: black;
+    align-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-gap: 10%; */
+}
+
+
+
+
+.personal>.isi {
+    justify-content: left !important;
+}
+
+.footer {
+    color: black;
+    background-color: white;
+}
+
+.footer .img {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 10% 10% 10%;
+}
+
+.footer>.img a:hover {}
+
+.footer ._bottom {
+    align-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footer ._bottom ._sosmed {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+/* .footer ._bottom ._expereince table tr td progress[value]::{
+    
+        background-color: #eee;
+        border-radius: 2px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+
+} */
+
+.footer ._bottom{
+    background-color: burlywood;
+}
+
+.footer ._sosmed {
+    align-content: center;
+    background-color: crimson;
+    padding: 40px 10px;
+}
+.footer ._sosmed a img{
+    margin-left: 30px;
+    padding: 20px;
+}
+.footer ._sosmed a:hover{
+    background-color: aliceblue;
+    justify-content: center;
+}
