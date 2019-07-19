@@ -7,6 +7,7 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import Index from './router/index.js'
 
 export default {
   name: 'app',
